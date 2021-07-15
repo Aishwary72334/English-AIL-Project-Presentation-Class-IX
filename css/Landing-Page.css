@@ -1,0 +1,29 @@
+.Landing-Section{
+    height: 95vh;
+    width: 100vw; 
+    overflow-x: hidden;
+    background-image: url(../Images/LandingPage1.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: 100% 100%;
+}
+
+@media (max-width:1181px) {
+    .Landing-Section{
+        height: 100vh;
+        background-image: url(../Images/Landing-img-1-1.png);
+        background-repeat: no-repeat;
+        background-attachment: fixed;  
+        background-size: 100% 100%;
+    }
+}
+
+@media (max-width:670px) {
+    .Landing-Section{
+        height: 100vh;
+        background-image: url(../Images/Landing-img-9-16.png);
+        background-repeat: no-repeat;
+        background-attachment: fixed;  
+        background-size: 100% 100%;
+    }
+}

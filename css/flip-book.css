@@ -1,0 +1,39 @@
+.Flip-book-section{
+  background-color: blanchedalmond;
+}
+
+/* Flip Book Text */
+
+@media (max-width:768px) {
+
+    .Flip-Book-Text{
+  
+      align-items: center;
+      text-align: center;
+    
+    }
+    
+  }
+  
+  /* Flip-Book Css */
+  
+  .PDF{
+    width: 2500px;
+    height: 300px;
+  }
+  
+  .Flip-Book{
+    width: 100%;
+    height: 100%;
+  }
+  
+  @media (max-width: 1000px) {
+  
+    .PDF{
+      width: 80vw;
+      height: 450px;
+    }
+  
+    
+  }
+  
